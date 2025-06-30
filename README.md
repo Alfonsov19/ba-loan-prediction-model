@@ -3,10 +3,19 @@
 ## Project Summary
 This project investigates the patterns behind funded and unfunded SBA 504  loans, using a public dataset. It includes extensive EDA, feature engineering, and predictive modeling using Linear, Polynomial, and Ridge Regression.
 
- Business Problem
-**How can we predict the gross amount approved for an SBA 504 loan based on business characteristics, job creation, and collateral?**
+Business Problem
+This project uses SBA 504 loan data to identify patterns among businesses whose loans were approved but never funded. By training a predictive model exclusively on this group, we can estimate what these businesses should have received — unlocking opportunities for alternative lenders to serve overlooked clients.
 
-Financial institutions often struggle to proactively assess approval trends, gauge funding risks, and identify businesses likely to require alternative or follow-up financing. This project aims to support smarter lending strategies and partnership targeting (e.g., brokers, CRE agents).
+**Primary Goal**
+Predict the GrossApproval amount a business would likely receive based on key features — for businesses whose SBA loans were approved but not funded.
+
+This enables lenders (like Doriscar Capital) to:
+
+Identify pre-qualified but unfunded businesses
+
+Estimate how much they would likely need
+
+Proactively offer alternative financing options
 
 ## Key Results
 - Final model (Polynomial Regression, degree=2) achieved:
