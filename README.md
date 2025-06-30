@@ -15,6 +15,15 @@ Financial institutions often struggle to proactively assess approval trends, gau
 - Engineered features: Business age category, loan density, approval per job, NAICS sector encoding
 - Developed with: Pandas, Scikit-learn, NumPy, Matplotlib
 
+- ## 📈 Results Summary
+
+| Model                     | R² Score | Cross-validated R² | RMSE       | MAE        |
+|--------------------------|----------|--------------------|------------|------------|
+| Linear Regression         | 0.165    | -                  | ~1.15M     | ~834K      |
+| Polynomial Regression (deg=2) | **0.987** | **0.966**        | ~143K      | ~97K       |
+| Ridge Regression          | 0.165    | -                  | ~1.15M     | ~834K      |
+
+
 ## Why It Matters
 This project demonstrates my ability to:
 - Understand and clean complex financial data
