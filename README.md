@@ -4,7 +4,7 @@
 This project investigates the patterns behind funded and unfunded SBA 504  loans, using a public dataset. It includes extensive EDA, feature engineering, and predictive modeling using Linear, Polynomial, and Ridge Regression.
 
  Business Problem
-**How can we predict the gross amount approved for a commercial real estate loan based on business characteristics, job creation, and collateral?**
+**How can we predict the gross amount approved for an SBA 504 loan based on business characteristics, job creation, and collateral?**
 
 Financial institutions often struggle to proactively assess approval trends, gauge funding risks, and identify businesses likely to require alternative or follow-up financing. This project aims to support smarter lending strategies and partnership targeting (e.g., brokers, CRE agents).
 
