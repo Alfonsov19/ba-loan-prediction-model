@@ -15,7 +15,7 @@ Financial institutions often struggle to proactively assess approval trends, gau
 - Engineered features: Business age category, loan density, approval per job, NAICS sector encoding
 - Developed with: Pandas, Scikit-learn, NumPy, Matplotlib
 
-- ## 📈 Results Summary
+- ##  Results Summary
 
 | Model                     | R² Score | Cross-validated R² | RMSE       | MAE        |
 |--------------------------|----------|--------------------|------------|------------|
@@ -23,6 +23,15 @@ Financial institutions often struggle to proactively assess approval trends, gau
 | Polynomial Regression (deg=2) | **0.987** | **0.966**        | ~143K      | ~97K       |
 | Ridge Regression          | 0.165    | -                  | ~1.15M     | ~834K      |
 
+##  Key Features Engineered
+
+- `BusinessAge_num`: Numerical conversion of business age
+- `NaicsSector_encoded`: Encoded 2-digit NAICS industry sectors
+- `CollateralInd_encoded`: Encoded indicator for presence of collateral
+- `ApprovalPerJob`: Funding efficiency per job created
+- `LoanDensity`: Loan amount relative to loan term
+- `IsStartup`: Flag for businesses with less than 2 years in operation
+- `JobsPerMonth`: Job creation normalized over loan duration
 
 ## Why It Matters
 This project demonstrates my ability to:
